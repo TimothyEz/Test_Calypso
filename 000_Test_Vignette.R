@@ -10,7 +10,7 @@ library(tidyverse)
 
 # load data
 data("timeOmics.simdata")
-sim.data <- timeOmics.simdata$sim
+sim.data <- timeOmics.simdata$sim # Attempt to check edit
 
 dim(sim.data) 
 
