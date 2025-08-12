@@ -1,3 +1,4 @@
+# For some reason, after closure it's no longer a git repository on calypso drive.
 ## install BiocManager if not installed
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
@@ -10,7 +11,7 @@ library(tidyverse)
 
 # load data
 data("timeOmics.simdata")
-sim.data <- timeOmics.simdata$sim # Attempt to check edit
+sim.data <- timeOmics.simdata$sim # Attempt to check edit 
 
 dim(sim.data) 
 
