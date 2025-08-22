@@ -5,6 +5,10 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 ## install timeOmics
 BiocManager::install('timeOmics')
 
+if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
+if (!requireNamespace("tidyverse", quietly = TRUE)) install.packages("tidyverse")
+if (!requireNamespace("lmms", quietly = TRUE)) install.packages("lmms")
+
 # load libraries 
 library(timeOmics)
 library(tidyverse)
